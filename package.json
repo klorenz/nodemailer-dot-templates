@@ -1,0 +1,28 @@
+{
+  "name": "nodemailer-dot-templates",
+  "version": "0.0.0",
+  "description": "A nodemailer plugin to resolve doT templates in the options passed to nodemailer.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klorenz/nodemailer-dot-templates.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "dot",
+    "template"
+  ],
+  "author": "Kay-Uwe (Kiwi) Lorenz <kiwi@franka.dyndns.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klorenz/nodemailer-dot-templates/issues"
+  },
+  "dependencies": {
+    "dot": "^1.0.3",
+    "loophole": "^1.1.0",
+    "underscore": "^1.8.3"
+  }
+}
