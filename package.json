@@ -1,6 +1,6 @@
 {
   "name": "nodemailer-dot-templates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A nodemailer plugin to resolve doT templates in the options passed to nodemailer.",
   "main": "lib/main.js",
   "scripts": {
