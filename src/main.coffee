@@ -93,8 +93,10 @@ class TemplateHandler
       delete @templates[key]
       return value
 
-  process: (options, done) ->
+  process: (mail, done) ->
     currentTemplateCount = keys(@templates).length
+
+    options = mail.data
 
     debugger
 
